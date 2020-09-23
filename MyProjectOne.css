@@ -1,0 +1,183 @@
+html, body {
+	height: 100%;
+	text-decoration: none;
+
+}
+
+body{
+	margin: 0;
+
+	background: linear-gradient(-45deg,#237A57,#0f3443,#F56217);
+	background-size: 300%, 300%;
+	animation: BgAnimation 15s ease infinite;
+	background-repeat: no-repeat;
+}
+
+
+@keyframes BgAnimation {
+
+	0% {
+		background-position: 0% 50%;
+	}
+	
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+.papa{
+	height: 100%;
+
+}
+
+/*.parallax{
+	height: 100%;
+}*/
+
+.title{
+	margin-top: 15%;
+	margin-bottom: 10%;
+	display: flex;
+	justify-content: center;
+	height: 50%;
+
+}
+
+h1{ 
+	font-family: 'Monoton', cursive;
+	font-size: 90px;
+	font-weight: normal;
+
+}
+
+.Me{
+
+	margin-top: 0%;
+
+	background: linear-gradient(-45deg,#000000,#434343);
+	background-size: 300%, 300%;
+	animation: BgAnimation 15s ease infinite;
+	background-repeat: no-repeat;
+	
+}
+
+
+	
+
+.MeContent{
+	display: flex;
+	flex-direction: column;
+}
+
+.MyTitle{
+	justify-content: center;
+	
+}
+
+.Content{
+	display: flex;
+	
+}
+
+h3{
+	color: white;
+	font-family: 'Baloo Tammudu 2', cursive;
+	size: 20%;
+	font-weight: normal;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	text-decoration: none;
+	font-size: 120%;
+}
+
+.h2Me{
+
+	font-family: 'Ewert', cursive;
+	color: white;
+	font-weight: normal;
+	font-size: 500%;
+
+
+}
+
+.Resp{
+	margin-top: 0%;
+
+	background: linear-gradient(-45deg,#c31432,#240b36);
+	background-size: 300%, 300%;
+	animation: BgAnimation 15s ease infinite;
+	background-repeat: no-repeat;
+
+	display: flex;
+	flex-direction: column;
+
+}
+
+.RespTitleH2{
+	font-family: 'Bungee Shade', cursive;
+	font-weight: normal;
+	font-size: 400%;
+	color: white;
+
+}
+
+.RespContent{
+	display: flex;
+}
+
+.RespUl{
+	font-family: 'Baloo Tammudu 2', cursive;
+	font-size:150%;
+	font-weight: normal;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	color: white;
+}
+
+.Skills{
+	margin-top: 0%;
+
+	background: linear-gradient(-45deg,#0f0c29,#302b63,#24243e);
+	background-size: 300%, 300%;
+	animation: BgAnimation 15s ease infinite;
+	background-repeat: no-repeat;
+
+	direction: flex;
+	flex-direction: column;
+
+}
+
+.SkillsTitle{
+	padding-top: 2%;
+
+}
+
+.SkillsTitleH2{
+	font-family: 'Fascinate Inline', cursive;
+	font-weight: normal;
+	font-size: 400%;
+	color: white;
+}
+
+.SkillsContent{
+	display: flex;
+}
+
+.SkillsUl{
+	font-family: 'Baloo Tammudu 2', cursive;
+	font-size:140%;
+	font-weight: normal;
+	padding-top: 0%;
+	padding-bottom: 5%;
+	padding-left: 5%;
+	padding-right: 5%;
+	color: white;
+}
